@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HTB-Test — Log In</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="auth-page">
+    <header class="navbar compact">
+      <a class="brand" href="index.html">HTB-Test</a
+      ><a href="signup.html" class="small-link">New here? <b>Sign up</b></a>
+    </header>
+    <main class="auth-wrap">
+      <section class="auth-card">
+        <span class="eyebrow">WELCOME BACK</span>
+        <h1>Log in</h1>
+        <p class="muted">Pick up where you left off.</p>
+        <form onsubmit="return false;">
+          <label
+            >Email address<input
+              type="email"
+              placeholder="you@example.com" /></label
+          ><label
+            >Password<input type="password" placeholder="Your password"
+          /></label>
+          <div class="form-row">
+            <label class="check"><input type="checkbox" /> Remember me</label
+            ><a href="#">Forgot password?</a>
+          </div>
+          <button class="btn primary full" type="submit">Log In</button>
+        </form>
+        <div class="divider"><span>OR</span></div>
+        <button class="btn secondary full" type="button">
+          Continue with Google
+        </button>
+        <p class="switch">
+          Don't have an account? <a href="signup.html">Sign up</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
