@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HTB-Test — Sign Up</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="auth-page">
+    <header class="navbar compact">
+      <a class="brand" href="index.html">HTB-Test</a
+      ><a href="login.html" class="small-link"
+        >Already have an account? <b>Log in</b></a
+      >
+    </header>
+    <main class="auth-wrap">
+      <section class="auth-card">
+        <span class="eyebrow">JOIN HTB <3</span>
+        <h1>Create your account</h1>
+        <p class="muted">Start your hacking journey in a few seconds.</p>
+        <form onsubmit="return false;">
+          <label>Full name<input type="text" placeholder="Your name" /></label
+          ><label
+            >Email address<input
+              type="email"
+              placeholder="you@example.com" /></label
+          ><label
+            >Password<input
+              type="password"
+              placeholder="At least 6 characters" /></label
+          ><button class="btn primary full" type="submit">Sign Up</button>
+        </form>
+        <p class="legal">
+          By continuing, you agree to hear my bad jokes in CTFs
+        </p>
+        <p class="switch">
+          Already registered? <a href="login.html">Log in</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
